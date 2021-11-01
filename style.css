@@ -1,0 +1,118 @@
+body{
+	margin: 0px;
+}
+.menu{
+	background-color: green;
+	width: 100%;
+	text-align: center;	
+	position: fixed;
+}
+.menu a{
+	text-decoration: none;
+	color: 	white;
+	padding: 10px 20px;
+	font-size: 20px;
+	display: inline-block;
+}
+.header{
+	background-image: url(../IMG/background.jpg);
+	padding: 200px 0px;	
+	text-align: center;
+}
+h1{
+	margin: 0px;
+
+}
+.header p{
+	text-align: right;	
+	position: absolute ;
+	left: 1750px;
+	top: 400px;
+}
+li{
+	margin: 20px;
+	font-size: 20px;	
+}
+.evidence{
+	background-color: #67BF67;
+	height: 500px;
+}
+.even{
+	font-weight: bold; 
+}
+.neeven{
+	font-style: italic;
+}
+.img{
+	text-align: center;
+}
+#img1{
+	border: 5px solid red;
+}
+#img2{
+	border: 5px solid blue;
+}
+#img3{
+	border: 5px solid green;
+}
+#img4{
+	border: 5px solid yellow;
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+	color: red; 
+	margin: 0px;
+	padding: 10px;
+}
+img{
+	width: 500px;
+	height: 300px;
+	margin: 30px;
+}
+h3{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+}
+h4{
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+.form{
+	background-color: #67BF67;
+}
+form{
+	padding: 30px;
+	width: 500px;
+	margin: 50px auto;
+	text-align: center;
+	border: 5px solid darkgreen;
+} 
+input,select,textarea{
+	width: 300px;
+	padding: 15px;
+	margin-top: 10px;
+	border: 2px solid #1abc9c;
+	border-radius: 10px;
+	outline: none;
+}
+label{
+	font-size: 18px;
+	display: block;
+	margin: 10px;
+}
+button{
+	width: 300px;
+	height: 50px;
+	margin-top: 15px;
+	border-radius: 10px;
+	border: 2px solid lightblue;
+	outline: none;
+	background-color: red;
+}
